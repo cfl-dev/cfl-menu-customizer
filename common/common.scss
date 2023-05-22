@@ -8,7 +8,7 @@
 
 // * hide lock icon for the select categories (Lounge) * 
 
-.category-drop .restricted, [href^="/c/off-topic"] {
+.category-drop .restricted, [href^="https://forums.cfl.ca/c/off-topic"] {
     .d-icon-lock {
         display: none;
     }
