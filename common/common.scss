@@ -6,15 +6,16 @@
 //   display: none;
 //}
 
-// * hide lock icon for the select categories (Lounge) * 
 
-.category-drop .restricted, [href^="https://forums.cfl.ca/c/off-topic"] {
+// * hide lock icon for the select categories * 
+
+.category-drop .restricted, [href^="/c/off-topic"] {
     .d-icon-lock {
         display: none;
     }
 }
 
-// * sidebar bullets - round *
+// * sidebar bullets *
 
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
     width: .7em;
@@ -22,7 +23,7 @@
     border-radius: 100%;
 }
 
-// * disable the links to faq, badges, anniversaries *
+// * disable the link to faq, badges, anniversaries *
 
 .sidebar-section-link-wrapper {
   .sidebar-section-link {
@@ -40,9 +41,10 @@
   display: none;
 }
 
+
 // * category drop down selector * 
 
-// * hide the lock icon for category drop down if visible* 
+// * hide the lock icon for category drop down * 
 
 //.category-drop .restricted .d-icon-lock {
 //       display: none;
@@ -54,25 +56,26 @@
   display: none;
 }
 
-// * hide lock icon for badge wrapper if visible* 
+// * hide lock icon for badge wrapper * 
 
 //.badge-wrapper.bullet .d-icon-lock {
 //    display: none;
 //}
 
-// * round user menu borders *
+
+// * customize user menu *
 
 .user-menu.revamped {
     border-radius: 10px;
 }
 
-// * round search panel borders *
+// * search panel *
 
 .menu-panel.drop-down {
     border-radius: 10px;
 }
 
-// * round pop up menus and button borders *
+// * pop up menus *
 
 .popup-menu, .popup-menu .btn {
     border-radius: 10px;
