@@ -6,7 +6,6 @@
 //   display: none;
 //}
 
-
 // * hide lock icon for the select categories * 
 
 .category-drop .restricted, [href^="/c/off-topic"] {
@@ -50,6 +49,14 @@
 //       display: none;
 //}
 
+// * category drop box selector wrapping for longer category names *
+
+.badge-wrapper .badge-category {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 // * badge-wrapper bullets *
 
 .badge-wrapper.bullet .badge-category-parent-bg, .badge-wrapper.bullet .badge-category-bg {
@@ -61,7 +68,6 @@
 //.badge-wrapper.bullet .d-icon-lock {
 //    display: none;
 //}
-
 
 // * customize user menu *
 
