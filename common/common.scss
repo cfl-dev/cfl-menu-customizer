@@ -14,6 +14,29 @@
     }
 }
 
+// * sidebar controls *
+
+body.has-sidebar-page #main-outlet-wrapper {
+    gap: 0 0.8em;
+}
+
+.sidebar-wrapper {
+    margin: 0px 0px 0px 0px;
+    border-radius: 0px;
+    padding-right: 0px;
+}
+
+.sidebar-wrapper .sidebar-sections {
+    padding: 0.5em 0em 0em 0em;
+
+}
+
+:root {
+    //--d-sidebar-row-horizontal-padding: 1.25rem;
+    --d-sidebar-row-height: 2.05em;
+}
+
+
 // * sidebar bullets *
 
 .sidebar-section-link-wrapper .sidebar-section-link-prefix .prefix-span {
