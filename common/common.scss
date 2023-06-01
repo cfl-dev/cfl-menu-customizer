@@ -46,15 +46,13 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * disable the link to faq, badges, anniversaries *
 
-//.sidebar-section-link-wrapper {
-//  .sidebar-section-link {
-//    &[data-link-name="faq"],
-//    &[data-link-name="badges"], 
-//    &[data-link-name="anniversaries"] {
-//      display: none;
-//    }
-//  }
-//}
+.sidebar-section-link-wrapper {
+      .sidebar-section-link {
+      &[data-link-name="anniversaries"] {
+      display: none;
+      }
+  }
+
 
 // * hide the Links globe icon* 
 
