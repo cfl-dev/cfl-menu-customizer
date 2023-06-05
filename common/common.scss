@@ -1,5 +1,16 @@
 // customize sidebar navigator menu 
 
+
+// * side-bar header formatting *
+
+.sidebar-section-wrapper .sidebar-section-header {
+    font-size: 14;
+    //color: #555555;
+    font-weight: 600;
+    // align-items: left;
+}
+
+
 // * turn off the lock icon for all secure categories in the sidebar *
 
 //.sidebar-section-link-wrapper .sidebar-section-link-prefix.icon .prefix-badge, .sidebar-section-link-wrapper .sidebar-section-link-prefix.span .prefix-badge {
