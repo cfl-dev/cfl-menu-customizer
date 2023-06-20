@@ -10,6 +10,9 @@
     // align-items: left;
 }
 
+.anon .sidebar-section-wrapper.sidebar-section[data-section-name="cfl-forums"] {
+    display: none;
+}
 
 // * turn off the lock icon for all secure categories in the sidebar *
 
