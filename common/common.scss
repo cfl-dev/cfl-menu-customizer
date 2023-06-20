@@ -46,6 +46,12 @@ body.has-sidebar-page #main-outlet-wrapper {
 //    --d-sidebar-row-height: 2.05em;
 //}
 
+// * hide More section in sidebar menu *
+
+.btn-flat.sidebar-more-section-links-details-summary, 
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+    display: none;
+}
 
 // * sidebar bullets *
 
