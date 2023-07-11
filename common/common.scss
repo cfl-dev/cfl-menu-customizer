@@ -74,6 +74,13 @@ body.has-sidebar-page #main-outlet-wrapper {
   }
 }
 
+.sidebar-section-link-wrapper {
+      .sidebar-section-link {
+      &[data-link-name="birthdays"] {
+      display: none;
+      }
+  }
+}
 // * hide the Links globe icon* 
 
 //.sidebar-custom-sections .d-icon-globe {
