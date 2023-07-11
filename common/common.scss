@@ -51,10 +51,11 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide More section in sidebar menu *
 
-//.btn-flat.sidebar-more-section-links-details-summary, 
-//.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
-//    display: none;
-//}
+body:not(.staff) {
+.btn-flat.sidebar-more-section-links-details-summary, 
+.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+    display: none;
+}
 
 // * sidebar bullets *
 
@@ -66,21 +67,23 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * disable the link to faq, badges, anniversaries *
 
-.sidebar-section-link-wrapper {
-      .sidebar-section-link {
-      &[data-link-name="anniversaries"] {
-      display: none;
-      }
-  }
-}
+//.sidebar-section-link-wrapper {
+//      .sidebar-section-link {
+//      &[data-link-name="anniversaries"] {
+//      display: none;
+//      }
+//  }
+//}
 
-.sidebar-section-link-wrapper {
-      .sidebar-section-link {
-      &[data-link-name="birthdays"] {
-      display: none;
-      }
-  }
-}
+//.sidebar-section-link-wrapper {
+//      .sidebar-section-link {
+//      &[data-link-name="birthdays"] {
+//      display: none;
+//      }
+//  }
+//}
+
+
 // * hide the Links globe icon* 
 
 //.sidebar-custom-sections .d-icon-globe {
