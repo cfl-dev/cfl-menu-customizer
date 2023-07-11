@@ -51,7 +51,7 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide More section in sidebar menu *
 
-body:not(.staff) {
+body:not(.admin) {
 .btn-flat.sidebar-more-section-links-details-summary, 
 .sidebar-more-section-links-details-summary.json-editor-btn-collapse {
     display: none;
