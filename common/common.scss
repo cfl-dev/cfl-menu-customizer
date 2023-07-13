@@ -11,7 +11,7 @@
 }
 
 //.anon .sidebar-section-wrapper.sidebar-section[data-section-name="cfl-forums"] {
-//    display: none;
+//   display: none;
 //}
 
 // * turn off the lock icon for all secure categories in the sidebar *
@@ -51,12 +51,10 @@ body.has-sidebar-page #main-outlet-wrapper {
 
 // * hide More section in sidebar menu *
 
-body:not(.staff) {
-.btn-flat.sidebar-more-section-links-details-summary, 
-.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
-    display: none;
-    }
-}
+//.btn-flat.sidebar-more-section-links-details-summary, 
+//.sidebar-more-section-links-details-summary.json-editor-btn-collapse {
+//    display: none;
+//}
 
 // * sidebar bullets *
 
@@ -68,22 +66,13 @@ body:not(.staff) {
 
 // * disable the link to faq, badges, anniversaries *
 
-//.sidebar-section-link-wrapper {
-//      .sidebar-section-link {
-//      &[data-link-name="anniversaries"] {
-//      display: none;
-//      }
-//  }
-//}
-
-//.sidebar-section-link-wrapper {
-//      .sidebar-section-link {
-//      &[data-link-name="birthdays"] {
-//      display: none;
-//      }
-//  }
-//}
-
+.sidebar-section-link-wrapper {
+      .sidebar-section-link {
+      &[data-link-name="anniversaries"] {
+      display: none;
+      }
+  }
+}
 
 // * hide the Links globe icon* 
 
@@ -99,13 +88,6 @@ body:not(.staff) {
 //       display: none;
 //}
 
-// * category drop box selector wrapping for longer category names *
-
-//.badge-wrapper .badge-category {
-//    text-overflow: ellipsis;
-//   overflow: hidden;
-//    white-space: nowrap;
-//}
 
 // * badge-wrapper bullets *
 
