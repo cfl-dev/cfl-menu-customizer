@@ -1,8 +1,27 @@
 // customize sidebar navigator menu 
 
+// hide faq and about (from anon) //
+
 .nav-pills .nav-item-faq {display: none}
 .anon .nav-pills .nav-item-about {display: none}
 
+// change order of lower menu sections //
+
+.sidebar-section-wrapper.sidebar-section[data-section-name="categories"] {
+  order: 1; 
+}
+.sidebar-section-wrapper.sidebar-section[data-section-name="tags"] {
+  order: 2; 
+}
+.sidebar-section-wrapper.sidebar-section[data-section-name="chat-dms"] {
+  order: 4; 
+}
+.sidebar-section-wrapper.sidebar-section[data-section-name="chat-channels"] {
+  order: 5; 
+}
+.sidebar-section-wrapper.sidebar-section[data-section-name="messages"] {
+  order: 3; 
+}
 
 // * side-bar header formatting *
 
